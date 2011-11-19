@@ -1,0 +1,26 @@
+USAGE:
+Just be sure go.sh and minerd  are in the same directory and run:
+./go.sh
+
+DESCRIPTION:
+This is a binary repository for Tenerbrix Litecoin miner, all binaries are compiled with the following:
+"-fno-builtin -fno-strict-aliasing -Ofast -pipe" -march is the only difference in each binary. If you 
+are cloning this directory then please do:
+
+ln -sf minerd-yourcpu minerd
+
+If you are not cloning and just wanting to run the miner, then copy go.sh to your minerd directory and
+the appropriate minerd-cpu to that same directory but rename the file to just be "minerd" 
+
+The go.sh script was wrote by Daniel Robbins, it detects your cpu's number of threads and then connects / long
+polls at the http://lc.ozco.in litecoin server. 
+
+The source code to Tenebrix Litecoin miner is in the src/ directory if you prefer to compile with your own 
+optimizations, or if you'd just like to view the source code.  No source code has been modified from the original
+
+Enjoy these binaries!
+
+compiled and made available by godmachine81
+
+Special Thanks to Daniel Robbins, Funtoo, Tenebrix :D
+

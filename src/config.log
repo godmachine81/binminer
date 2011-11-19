@@ -95,27 +95,27 @@ gcc: fatal error: no input files
 compilation terminated.
 configure:3192: $? = 1
 configure:3212: checking whether the C compiler works
-configure:3234: gcc -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:3234: gcc -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:3238: $? = 0
 configure:3286: result: yes
 configure:3289: checking for C compiler default output file name
 configure:3291: result: a.out
 configure:3297: checking for suffix of executables
-configure:3304: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:3304: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:3308: $? = 0
 configure:3330: result: 
 configure:3352: checking whether we are cross compiling
-configure:3360: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:3360: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:3364: $? = 0
 configure:3371: ./conftest
 configure:3375: $? = 0
 configure:3390: result: no
 configure:3395: checking for suffix of object files
-configure:3417: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:3417: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:3421: $? = 0
 configure:3442: result: o
 configure:3446: checking whether we are using the GNU C compiler
-configure:3465: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:3465: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:3465: $? = 0
 configure:3474: result: yes
 configure:3483: checking whether gcc accepts -g
@@ -123,7 +123,7 @@ configure:3503: gcc -c -g  conftest.c >&5
 configure:3503: $? = 0
 configure:3544: result: yes
 configure:3561: checking for gcc option to accept ISO C89
-configure:3625: gcc  -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:3625: gcc  -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:3625: $? = 0
 configure:3638: result: none needed
 configure:3669: checking for style of include used by make
@@ -190,51 +190,51 @@ configure:4327: checking for ranlib
 configure:4343: found /usr/bin/ranlib
 configure:4354: result: ranlib
 configure:4377: checking for ANSI C header files
-configure:4397: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4397: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4397: $? = 0
-configure:4470: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:4470: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:4470: $? = 0
 configure:4470: ./conftest
 configure:4470: $? = 0
 configure:4481: result: yes
 configure:4494: checking for sys/types.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for sys/stat.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for stdlib.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for string.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for memory.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for strings.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for inttypes.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for stdint.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4494: checking for unistd.h
-configure:4494: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4494: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4494: $? = 0
 configure:4494: result: yes
 configure:4508: checking syslog.h usability
-configure:4508: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4508: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4508: $? = 0
 configure:4508: result: yes
 configure:4508: checking syslog.h presence
@@ -244,9 +244,9 @@ configure:4508: result: yes
 configure:4508: checking for syslog.h
 configure:4508: result: yes
 configure:4519: checking for size_t
-configure:4519: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4519: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 configure:4519: $? = 0
-configure:4519: gcc -c -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a   conftest.c >&5
+configure:4519: gcc -c -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:58:21: error: expected expression before ')' token
 configure:4519: $? = 1
@@ -315,15 +315,15 @@ configure: failed program was:
 | }
 configure:4519: result: yes
 configure:4532: checking for working alloca.h
-configure:4549: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:4549: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:4549: $? = 0
 configure:4557: result: yes
 configure:4565: checking for alloca
-configure:4602: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c  >&5
+configure:4602: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c  >&5
 configure:4602: $? = 0
 configure:4610: result: yes
 configure:4739: checking for json_loads in -ljansson
-configure:4764: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c -ljansson   >&5
+configure:4764: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c -ljansson   >&5
 /usr/lib/gcc/x86_64-pc-linux-gnu/4.6.2/../../../../x86_64-pc-linux-gnu/bin/ld: cannot find -ljansson
 collect2: ld returned 1 exit status
 configure:4764: $? = 1
@@ -368,7 +368,7 @@ configure: failed program was:
 | }
 configure:4773: result: no
 configure:4781: checking for pthread_create in -lpthread
-configure:4806: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a    conftest.c -lpthread   >&5
+configure:4806: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe   conftest.c -lpthread   >&5
 configure:4806: $? = 0
 configure:4815: result: yes
 configure:4857: checking for yasm
@@ -391,11 +391,11 @@ configure:5237: result: 7.22.0
 configure:5244: checking for libcurl >= version 7.10.1
 configure:5257: result: yes
 configure:5298: checking whether libcurl is usable
-configure:5331: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a     conftest.c -lcurl -lssl -lcrypto -lrt -lssl -lcrypto -ldl -lz -lz  >&5
+configure:5331: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe    conftest.c -lcurl -lssl -lcrypto -lrt -lssl -lcrypto -ldl -lz -lz  >&5
 configure:5331: $? = 0
 configure:5345: result: yes
 configure:5358: checking for curl_free
-configure:5358: gcc -o conftest -march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a     conftest.c  -lcurl -lssl -lcrypto -lrt -lssl -lcrypto -ldl -lz -lz >&5
+configure:5358: gcc -o conftest -march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe    conftest.c  -lcurl -lssl -lcrypto -lrt -lssl -lcrypto -ldl -lz -lz >&5
 configure:5358: $? = 0
 configure:5358: result: yes
 configure:5601: creating ./config.status
@@ -420,6 +420,7 @@ config.status:921: creating compat/Makefile
 config.status:921: creating compat/jansson/Makefile
 config.status:921: creating x86_64/Makefile
 config.status:921: creating cpuminer-config.h
+config.status:1102: cpuminer-config.h is unchanged
 config.status:1150: executing depfiles commands
 
 ## ---------------- ##
@@ -431,7 +432,7 @@ ac_cv_c_compiler_gnu=yes
 ac_cv_env_CC_set=
 ac_cv_env_CC_value=
 ac_cv_env_CFLAGS_set=set
-ac_cv_env_CFLAGS_value='-march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a '
+ac_cv_env_CFLAGS_value='-march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe'
 ac_cv_env_CPPFLAGS_set=
 ac_cv_env_CPPFLAGS_value=
 ac_cv_env_CPP_set=
@@ -497,19 +498,19 @@ libcurl_cv_lib_version_ok=yes
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /usr/local/share/minerd/src/minerd/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /usr/local/share/minerd/src/missing --run aclocal-1.11'
 ALLOCA=''
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /usr/local/share/minerd/src/minerd/missing --run tar'
-AUTOCONF='${SHELL} /usr/local/share/minerd/src/minerd/missing --run autoconf'
-AUTOHEADER='${SHELL} /usr/local/share/minerd/src/minerd/missing --run autoheader'
-AUTOMAKE='${SHELL} /usr/local/share/minerd/src/minerd/missing --run automake-1.11'
+AMTAR='${SHELL} /usr/local/share/minerd/src/missing --run tar'
+AUTOCONF='${SHELL} /usr/local/share/minerd/src/missing --run autoconf'
+AUTOHEADER='${SHELL} /usr/local/share/minerd/src/missing --run autoheader'
+AUTOMAKE='${SHELL} /usr/local/share/minerd/src/missing --run automake-1.11'
 AWK='gawk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
-CFLAGS='-march=native -fno-builtin -fno-strict-aliasing -Ofast -pipe -msse4a '
+CFLAGS='-march=corei7 -fno-builtin -Ofast -fno-strict-aliasing -pipe'
 CPP='gcc -E'
 CPPFLAGS=''
 CYGPATH_W='echo'
@@ -541,7 +542,7 @@ LTLIBOBJS=''
 MAINT='#'
 MAINTAINER_MODE_FALSE=''
 MAINTAINER_MODE_TRUE='#'
-MAKEINFO='${SHELL} /usr/local/share/minerd/src/minerd/missing --run makeinfo'
+MAKEINFO='${SHELL} /usr/local/share/minerd/src/missing --run makeinfo'
 MKDIR_P='/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='cpuminer'
@@ -596,7 +597,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /usr/local/share/minerd/src/minerd/install-sh'
+install_sh='${SHELL} /usr/local/share/minerd/src/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
